@@ -1,6 +1,6 @@
 # Git Commands
 
-## Gi clone
+## Git clone
 
 Git clone is a command for downloading existing source code from a remote repository (like Github, for example):
 
