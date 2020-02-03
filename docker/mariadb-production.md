@@ -30,3 +30,15 @@ Connect via the client:
 ```bash
 docker run -it --rm --link pmon_mariadb:mysql mariadb:10.3 mysql -hmysql -usa -psa 
 ```
+
+Make a dump:
+
+```bash
+docker run -it --rm --link pmon_mariadb:mysql mariadb:10.3 mysqldump --all-databases -hmysql -usa -psa > /tmp/pmon.sql
+```
+
+Upload the dump:
+
+```bash
+docker exec -i pmon_mariadb sh -c 'exec mysql -usa -psa' < /tmp/pmon.sql
+```
