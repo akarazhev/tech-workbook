@@ -204,3 +204,23 @@ before operations on the real object are invoked.
 In plain words
 
 > Using the proxy pattern, a class represents the functionality of another class.
+
+## Structural Patterns
+
+### Chain Of Responsibility
+
+Idea:
+ 
+> Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. 
+Chain the receiving objects and pass the request along the chain until an object handles it.
+
+Wikipedia says
+
+> In object-oriented design, the chain-of-responsibility pattern is a design pattern consisting of a source of 
+command objects and a series of processing objects. Each processing object contains logic that defines the types of 
+command objects that it can handle; the rest are passed to the next processing object in the chain.
+
+In plain words
+
+> It helps building a chain of objects. Request enters from one end and keeps going from object to object till it 
+finds the suitable handler.
