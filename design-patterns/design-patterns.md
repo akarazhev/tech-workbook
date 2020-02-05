@@ -205,7 +205,7 @@ In plain words
 
 > Using the proxy pattern, a class represents the functionality of another class.
 
-## Structural Patterns
+## Behavioral Patterns
 
 ### Chain Of Responsibility
 
