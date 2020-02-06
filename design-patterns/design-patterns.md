@@ -242,3 +242,19 @@ In plain words
 
 > Using command objects makes it easier to construct general components that need to delegate, sequence or execute 
 method calls at a time of their choosing without the need to know the class of the method or the method parameters.
+
+### Interpreter
+
+Intent
+
+> Given a language, define a representation for its grammar along with an interpreter that uses the representation 
+to interpret sentences in the language.
+
+Wikipedia says
+
+> In computer programming, the interpreter pattern is a design pattern that specifies how to evaluate sentences in 
+a language.
+
+In plain words
+
+> The basic idea is to have a class for each symbol (terminal or nonterminal) in a specialized computer language.
