@@ -1,6 +1,6 @@
 # Git Commands
 
-## Git clone
+## git clone
 
 Git clone is a command for downloading existing source code from a remote repository (like Github, for example):
 
@@ -8,7 +8,7 @@ Git clone is a command for downloading existing source code from a remote reposi
 git clone <https://name-of-the-repository-link>
 ```
 
-## Git branch
+## git branch
 
 We can use the git branch command for creating, listing and deleting branches:
 
@@ -35,7 +35,7 @@ Deleting a branch:
 git branch -d <branch-name>
 ```
 
-## Git checkout
+## git checkout
 
 We use git checkout mostly for switching from one branch to another. We can also use it for checking out files and commits:
 
@@ -49,7 +49,7 @@ There is also a shortcut command that allows you to create and switch to a branc
 git checkout -b <name-of-your-branch>
 ```
 
-## Git status
+## git status
 
 The Git status command gives us all the necessary information about the current branch:
 
@@ -57,7 +57,7 @@ The Git status command gives us all the necessary information about the current 
 git status
 ```
 
-## Git add
+## git add
 
 We need to use the git add command to include the changes of a file(s) into our next commit. 
 
@@ -73,7 +73,7 @@ To add everything at once:
 git add -A
 ```
 
-## Git commit
+## git commit
 
 Git commit is like setting a checkpoint in the development process which you can go back to later if needed. We also 
 need to write a short message to explain what we have developed or changed in the source code:
@@ -82,7 +82,7 @@ need to write a short message to explain what we have developed or changed in th
 git commit -m "commit message"
 ```
 
-## Git push
+## git push
 
 Git push uploads your commits to the remote repository:
 
@@ -102,7 +102,7 @@ or
 git push -u origin <branch_name>
 ```
 
-## Git pull
+## git pull
 
 The git pull command is used to get updates from the remote repo:
 
@@ -110,7 +110,7 @@ The git pull command is used to get updates from the remote repo:
 git pull <remote>
 ```
 
-## Git revert
+## git revert
 
 A safer way that we can undo our commits is by using git revert. To see our commit history, first we need to use:
 
@@ -124,7 +124,7 @@ Then we just need to specify the hash code next to our commit that we would like
 git revert <hash>
 ```
 
-## Git merge
+## git merge
 
 When you've completed development in your branch and everything works fine, the final step is merging the branch with 
 the parent branch (dev or master).

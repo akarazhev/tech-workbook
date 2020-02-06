@@ -1,6 +1,6 @@
 # Docker Commands
 
-## Docker build
+## docker build
 
 Once your code is ready and the Dockerfile is written, all you have to do is create your image to contain your application.
 The ’-t’ option allows you to define the name of your image:
@@ -9,7 +9,7 @@ The ’-t’ option allows you to define the name of your image:
 docker build -t <image-name> . 
 ```
 
-## Docker run
+## docker run
 
 Once the image is created, your code is ready to be launched:
 
@@ -17,7 +17,7 @@ Once the image is created, your code is ready to be launched:
 docker run <image-name>
 ```
 
-## Docker image
+## docker image
 
 List your images:
 
@@ -36,7 +36,7 @@ Delete all existing images:
 docker image rm $(docker images -a -q)
 ```
 
-## Docker ps
+## docker ps
 
 List all existing containers (running and not running):
 
@@ -44,7 +44,7 @@ List all existing containers (running and not running):
 docker ps -a
 ```
 
-## Docker stop
+## docker stop
 
 Stop a specific container:
 
@@ -58,7 +58,7 @@ Stop all running containers:
 docker stop $(docker ps -a -q)
 ```
 
-## Docker rm
+## docker rm
 
 Delete a specific container (only if stopped):
 
@@ -72,7 +72,7 @@ Delete all containers (only if stopped):
 docker rm $(docker ps -a -q)
 ```
 
-## Docker logs
+## docker logs
 
 Display logs of a container:
 
