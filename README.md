@@ -2,9 +2,7 @@
 
 This is a workbook that contains some technical stuff which might be useful and used in day to day working time.
 
-## Index
-
-The content:
+## Contents
 
 * [Programming Principles](programming/principles.md "Programming Principles");
 * [Design Patterns](design-patterns/design-patterns.md "Design Patterns");
