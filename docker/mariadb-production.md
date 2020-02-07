@@ -1,4 +1,4 @@
-# MariaDB for the production use
+# MariaDB for the production usage
 
 Create working catalogues:
 
