@@ -40,7 +40,8 @@ docker run -it --rm --link project_db_name:mysql mariadb:10.3 mysql -hmysql -usa
 Make a dump:
 
 ```bash
-docker run -it --rm --link project_db_name:mysql mariadb:10.3 mysqldump --all-databases -hmysql -usa -psa > /tmp/dump_name.sql
+docker run -it --rm --link project_db_name:mysql mariadb:10.3 mysqldump \
+--all-databases -hmysql -usa -psa > /tmp/dump_name.sql
 ```
 
 Upload the dump:
