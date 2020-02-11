@@ -259,7 +259,7 @@ In plain words
 
 > The basic idea is to have a class for each symbol (terminal or nonterminal) in a specialized computer language.
 
-# Iterator
+### Iterator
 
 Intent 
 
@@ -275,7 +275,7 @@ In plain words:
 
 > Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
-# Mediator
+### Mediator
  
 Intent
  
