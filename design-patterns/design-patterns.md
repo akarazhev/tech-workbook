@@ -290,3 +290,19 @@ This pattern is considered to be a behavioral pattern due to the way it can alte
 In plain words:
  
 > With the mediator pattern, communication between objects is encapsulated within a mediator object.
+
+### Memento
+  
+Intent
+  
+> Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored 
+to this state later.
+  
+Wikipedia says:
+  
+> The memento pattern is a software design pattern that provides the ability to restore an object to its previous state 
+(undo via rollback).
+  
+In plain words:
+  
+> With the memento pattern, it's possible to save and restore states.
