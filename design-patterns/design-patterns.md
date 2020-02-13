@@ -322,3 +322,19 @@ dependents, called observers, and notifies them automatically of any state chang
 In plain words:
 
 > With the observer pattern, it's possible to provide communications between objects with event handling.
+
+### State
+
+Intent
+
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+Wikipedia says:
+
+> The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its 
+internal state changes.
+
+In plain words:
+
+> With the observer pattern, it's possible for an object to change its behavior at runtime without resorting 
+to conditional statements and thus improve maintainability.
