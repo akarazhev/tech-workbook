@@ -338,3 +338,19 @@ In plain words:
 
 > With the observer pattern, it's possible for an object to change its behavior at runtime without resorting 
 to conditional statements and thus improve maintainability.
+
+### Strategy
+
+Intent
+
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary 
+independently from clients that use it.
+
+Wikipedia says:
+
+> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design 
+pattern that enables selecting an algorithm at runtime.
+
+In plain words:
+
+> Using the proxy pattern, it lets the algorithm vary independently from clients that use it.
