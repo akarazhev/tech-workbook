@@ -354,3 +354,23 @@ pattern that enables selecting an algorithm at runtime.
 In plain words:
 
 > Using the strategy pattern, it lets the algorithm vary independently from clients that use it.
+
+### Template Method
+
+Intent
+
+Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses 
+redefine certain steps of an algorithm without changing the algorithm's structure. To make sure that subclasses 
+don’t override the template method, the template method should be declared final.
+
+Wikipedia says:
+
+> In object-oriented programming, the template method is one of the behavioral design patterns identified by 
+Gamma et al. in the book Design Patterns. The template method is a method in a superclass, usually an abstract superclass, 
+and defines the skeleton of an operation in terms of a number of high-level steps. 
+These steps are themselves implemented by additional helper methods in the same class as the template method.
+
+In plain words:
+
+> Using the template method pattern, it's possible to define the overall structure of the operation, 
+while allowing subclasses to refine, or redefine, certain steps.
