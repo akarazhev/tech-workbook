@@ -374,3 +374,20 @@ In plain words:
 
 > Using the template method pattern, it's possible to define the overall structure of the operation, 
 while allowing subclasses to refine, or redefine, certain steps.
+
+### Visitor
+
+Intent 
+
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation 
+without changing the classes of the elements on which it operates.
+
+Wikipedia says:
+
+> In object-oriented programming and software engineering, the visitor design pattern is a way of separating an algorithm 
+from an object structure on which it operates. A practical result of this separation is the ability to add new operations 
+to existing object structures without modifying the structures. It is one way to follow the open/closed principle.
+
+In plain words:
+
+> The visitor allows adding new virtual functions to a family of classes, without modifying the classes.
