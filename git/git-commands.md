@@ -146,3 +146,47 @@ Finally, you can merge your feature branch into dev:
 ```bash
 git merge <branch-name>
 ```
+
+## git tag
+
+"Git create tag" to create tag:
+
+```bash
+git tag <tagname>
+```
+
+Create tag from a different commit:
+
+```bash
+git tag <tagname> <commit-hash>
+```
+
+List/View all available git tags:
+
+```bash
+git tag
+```
+
+Git push tag to remote:
+
+```bash
+git push origin --tags
+```
+
+Git delete local tag:
+
+```bash
+git tag -d <tagname>
+```
+
+Git delete remote tag:
+
+```bash
+git push origin :refs/tags/<tagname>
+```
+
+Git checkout tag as branch:
+
+```bash
+git checkout <tagname>
+```
