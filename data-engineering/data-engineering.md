@@ -15,8 +15,8 @@ Data Intensive (Big Data, Fast Data):
 - Database: MongoDB (C++), Redis (C), Cassandra (Java), HBase (Java), Neo4j (Java)
 
 Instruments:
+- Java, Scala, Python, R
 - Apache Spark, Spark Streaming, Kafka, Hadoop, Vertica and Kubernates
-- Java, Scala, Python
 - SQL, NoSQL, Linux
 - AWS, MS Azure, Google Cloud
 - Tableau, Qlik View
