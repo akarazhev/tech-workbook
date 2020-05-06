@@ -1,4 +1,4 @@
-# InfluxDB for the production usage
+# InfluxDB Usage
 
 Create working catalogues:
 
