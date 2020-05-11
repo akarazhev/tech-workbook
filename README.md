@@ -7,6 +7,7 @@ This is a workbook that contains some technical stuff which might be useful and 
 ### Architecture 
 
 * [Microservice](architecture/microservices.md "Microservices") - about microservices.
+* [Web](architecture/web.md "Web") - about web architecture.
 
 ### Commands
 
