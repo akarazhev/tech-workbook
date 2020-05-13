@@ -23,3 +23,4 @@ This is a workbook that contains some technical stuff which might be useful and 
 
 * [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
 * [Design Patterns](programming/design-patterns.md "Design Patterns") - describes 23 design patterns (GoF).
+* [Reactor](programming/reactor.md "Reactor") - describes the reactor.
