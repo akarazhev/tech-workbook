@@ -16,7 +16,11 @@ This is a workbook that contains some technical stuff which might be useful and 
 
 ### Data Engineering/Data Processing/Big Data 
 
-* [Data Engineering](data-engineering/data-engineering.md "Data Engineering") - contains information about data engineering. 
+* [Data Engineering](engineering/data-engineering.md "Data Engineering") - contains information about data engineering. 
+
+### Software Engineering 
+
+* [Software Engineering](engineering/software-engineering.md "Software Engineering") - contains information about software engineering. 
 
 ### Programming 
 

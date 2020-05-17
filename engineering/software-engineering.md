@@ -1,0 +1,13 @@
+Software Engineering:
+- VM: GraalVM
+- Language: Java, Kotlin, Scala, Groovy, JavaScript, Python, Go
+- Test: JUnit, Mockito, PowerMock
+- Front-end: HTML, CSS, (React, Vue, Angular, Ember, Svelte)
+- CICD Pipelines: Jenkins, Team City
+- Security: OWASP Top Ten, Defensive Coding Practices. CICD: SAST, DAST, Pen Tests 
+- Dev-opts: Jenkins, Team City, Terraform, Ansible, Docker, Kubernates
+- Builders: Maven, Gradle
+- Clouds: AWS, MS Azure, GCP
+- Source Control: Git
+- Frameworks: Spring, Micronaut, Quarkus 
+- Patterns: Reactive, Microservices, CORS, Event Sourcing
