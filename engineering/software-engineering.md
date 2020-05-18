@@ -2,7 +2,7 @@ Software Engineering:
 - Language: Java, Kotlin, Scala, Groovy, JavaScript, Python, Go
 - Frameworks: Spring, Micronaut, Quarkus 
 - Patterns: Reactive, Microservices, CORS, Event Sourcing
-- VM: JVM, GraalVM
+- VM: Zulu OpenJDK, OpenJDK, Adopted OpenJDK, Oracle JDK, GraalVM
 - Test: JUnit, Mockito, PowerMock
 - Front-end: HTML, CSS, (React, Vue, Angular, Ember, Svelte)
 - CICD Pipelines: Jenkins, Team City
