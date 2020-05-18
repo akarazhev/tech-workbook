@@ -1,6 +1,8 @@
 Software Engineering:
-- VM: GraalVM
 - Language: Java, Kotlin, Scala, Groovy, JavaScript, Python, Go
+- Frameworks: Spring, Micronaut, Quarkus 
+- Patterns: Reactive, Microservices, CORS, Event Sourcing
+- VM: JVM, GraalVM
 - Test: JUnit, Mockito, PowerMock
 - Front-end: HTML, CSS, (React, Vue, Angular, Ember, Svelte)
 - CICD Pipelines: Jenkins, Team City
@@ -9,5 +11,3 @@ Software Engineering:
 - Builders: Maven, Gradle
 - Clouds: AWS, MS Azure, GCP
 - Source Control: Git
-- Frameworks: Spring, Micronaut, Quarkus 
-- Patterns: Reactive, Microservices, CORS, Event Sourcing
