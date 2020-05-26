@@ -1,81 +1,253 @@
 # Docker Commands
 
-## docker build
-
-Once your code is ready and the Dockerfile is written, all you have to do is create your image to contain your application.
-The ’-t’ option allows you to define the name of your image:
+## Manage Images
 
 ```bash
-docker build -t <image-name> . 
+docker image pull <image name>
 ```
 
-## docker run
-
-Once the image is created, your code is ready to be launched:
-
-```bash
-docker run <image-name>
-```
-
-## docker image
-
-List your images:
+Download an image from DockerHub
 
 ```bash
 docker image ls
 ```
 
-Delete a specific image:
-```bash
-docker image rm <image-name>
-```
-
-Delete all existing images:
+List all local images
 
 ```bash
-docker image rm $(docker images -a -q)
+docker image build -t <image name> .
 ```
 
-## docker ps
-
-List all existing containers (running and not running):
+Build an image with a tag (note the dot!)
 
 ```bash
-docker ps -a
+docker image push <image name>
 ```
 
-## docker stop
-
-Stop a specific container:
+Publish an image to dockerhub
 
 ```bash
-docker stop <container-name>
+docker image tag <image id> <tag name>
 ```
 
-Stop all running containers:
+Tag an image - either alias an exisiting image or apply a :tag to one
+
+## Manage Containers
 
 ```bash
-docker stop $(docker ps -a -q)
+docker container run -p <public port>:<container port> <image name>
 ```
 
-## docker rm
-
-Delete a specific container (only if stopped):
+Run a container from an image, publishing the specified ports
 
 ```bash
-docker rm <container-name>
+docker container ls -a
 ```
 
-Delete all containers (only if stopped):
+List all containers, even the stopped ones
 
 ```bash
-docker rm $(docker ps -a -q)
+docker container stop <container id>
 ```
 
-## docker logs
-
-Display logs of a container:
+Stop a running container
 
 ```bash
-docker logs <container-name>
+docker container start <container id>
 ```
+
+Restart a stopped container
+
+```bash
+docker container rm <container id>
+```
+
+Remove a stopped container
+ 
+## Manage Containers (ctd) 
+
+```bash
+docker container prune
+```
+
+Remove all stopped containers
+
+```bash
+docker container run -it <image name>
+```
+
+Run a container with interactive terminal
+
+```bash
+docker container run -d <image name>
+```
+
+Run a container detached (or in a daemon like way)
+
+```bash
+docker container exec -it <container id> <command>
+```
+
+Run a command in a container
+
+```bash
+docker container exec -it <container id> bash
+```
+
+Special form of the above, runs a bash shell, connected to your local terminal (your distro needs to have bash, alpine will require /bin/sh)
+
+```bash
+docker container logs -f <container id>
+```
+
+Follow the log (STDIN/System.out) of the container
+
+```bash
+docker container commit -a "author" <container id> <image name>
+```
+
+Take a snapshot image of a container
+
+## Manage your (local) Virtual Machine
+
+```bash
+docker-machine ip
+```
+
+Find the IP address of your VirtualMachine, required for Docker Toolbox users only
+
+## Manage Networks 
+
+```bash
+docker network ls
+```
+
+List all networks
+
+```bash
+docker network create <network name>
+```
+
+Create a network using the bridge driver
+
+## Manage Volumes 
+
+```bash
+docker volume ls
+```
+
+List all volumes
+
+```bash
+docker volume prune
+```
+
+Delete all volumes that are not currently mounted to a container
+
+```bash
+docker volume inspect <volume name>
+```
+
+Inspect a volume (can find out the mount point, the location of the volume on the host system)
+
+```bash
+docker volume rm <volume name>
+```
+
+Remove a volume
+
+## Docker Compose
+
+```bash
+docker-compose up
+```
+
+Process the default docker-compose.yaml file, starting any containers as required. If containers are already running they are ignored, meaning this command also serves as a "redeploy".
+
+```bash
+docker-compose up -d
+```
+
+Run containers in the detached state. Note the order of the command line arguments!
+
+```bash
+docker-compose logs -f <service name>
+```
+
+Follow the log for the specified service. Omit the -f to tail the log.
+
+```bash
+docker-compose down
+```
+
+Stop all the containers (services) listed in the default compose file.
+
+## Manage a Swarm
+
+```bash
+docker swarm init (--advertise-addr <ip address>)
+```
+
+Switch the machine into Swarm mode. We didn't cover how to stop swarm mode: docker swarm leave --force
+
+```bash
+docker service create <args>
+```
+
+Start a service in the swarm. The args are largely the same as those you will have used in docker container run.
+
+```bash
+docker network create --driver overlay <name>
+```
+
+Create a network suitable for using in a swarm.
+
+```bash
+docker service ls
+```
+
+List all services
+
+```bash
+docker node ls
+```
+
+List all nodes in the swarm
+
+```bash
+docker service logs -f <service name>
+```
+
+Follow the log for the service. This feature is a new feature in Docker and may not be available on your version (especially if using Linux Repository Packages).
+
+```bash
+docker service ps <service name>
+```
+
+List full details of the service - in particular the node on which it is running and any previous failed containers from the service.
+
+```bash
+docker swarm join-token <worker|manager>
+```
+
+Get a join token to enable a new node to connect to the swarm, either as a worker or manager.
+
+## Manage Stacks 
+
+```bash
+docker stack ls
+```
+
+List all stacks on this swarm.
+
+```bash
+docker stack deploy -c <compose file> <stack name>
+```
+
+Deploy (or re-deploy) a stack based on a standard compose file.
+
+```bash
+docker stack rm <stack name>
+```
+
+Delete a stack and its corresponding services/networks/etc.
