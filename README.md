@@ -2,27 +2,25 @@
 
 This is a workbook that contains some technical stuff which might be useful and can be used in day to day working time.
 
-## Contents
+## Books
 
-### Architecture 
+* [Books](books/books.md "Books") - a list of some interesting books.
 
-* [Microservice](architecture/microservices.md "Microservices") - about microservices.
-
-### Commands
+## Commands
 
 * [Docker Commands](commands/docker-commands.md "Docker Commands") - some useful docker commands.
 * [Git Commands](commands/git-commands.md "Git Commands") - some useful git commands.
 * [Linux Commands](commands/linux-commands.md "Linux Commands") - some useful linux commands.
 
-### Data Engineering/Data Processing/Big Data 
+## Engineering 
 
 * [Data Engineering](engineering/data-engineering.md "Data Engineering") - contains information about data engineering. 
-
-### Software Engineering 
-
+* [Popular Big Data](engineering/popular-big-data.md "Popular Big Data") - contains information about popular big data tools. 
 * [Software Engineering](engineering/software-engineering.md "Software Engineering") - contains information about software engineering. 
 
-### Programming 
+## Programming 
 
-* [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
+* [7 Microservices Tenets](programming/7-microservices-tenets.md "7 Microservices Tenets") - describes interesting 7 microservices tenets.
+* [Clean Code Principles](programming/clean-code-principles.md "Programming Principles") - describes some clean code principles.
 * [Design Patterns](programming/design-patterns.md "Design Patterns") - describes 23 design patterns (GoF).
+* [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
