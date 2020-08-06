@@ -1,7 +1,7 @@
 Software Engineering:
 - Basics: Mathematics, Design Patterns, Data Structures, Algorithms
 - Language: Java, Kotlin, Scala, Groovy, JavaScript, Python, Go
-- Frameworks: Spring, Micronaut, Quarkus, ReactorX, Hibernate, Vert.x, Play, Akka
+- Frameworks: Spring, Micronaut, Quarkus, ReactorX, Hibernate, Vert.x, Play, Akka, DropWizard
 - Platforms: NodeJS, Netty 
 - Patterns: Reactive, Microservices, CORS, Event Sourcing
 - VM: Zulu OpenJDK, OpenJDK, Adopted OpenJDK, Oracle JDK, GraalVM
