@@ -18,6 +18,7 @@ This is a workbook that contains some technical stuff which might be useful and 
 
 ## Engineering 
 
+* [Big Data Technology Stack](engineering/big-data-technologystack.md "Big Data Technology Stack") - contains information about big data technology stack. 
 * [Data Engineering](engineering/data-engineering.md "Data Engineering") - contains information about data engineering. 
 * [Popular Big Data](engineering/popular-big-data.md "Popular Big Data") - contains information about popular big data tools. 
 * [Software Engineering](engineering/software-engineering.md "Software Engineering") - contains information about software engineering. 

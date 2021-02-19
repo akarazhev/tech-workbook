@@ -21,3 +21,6 @@ Instruments:
 - AWS, MS Azure, Google Cloud
 - Tableau, Qlik View
 - Big Data Warehouse: Amazon Redshift, Yandex Clickhouse, HP Vertica, Oracle, SQL Server
+
+Data Platform:
+- Trino, MinIO
