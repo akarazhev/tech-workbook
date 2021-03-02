@@ -3,21 +3,19 @@ In your local clone of your forked repository, you can add the original GitHub r
 Then you can fetch all the branches from that upstream repository, and rebase your work to continue working on the upstream version. 
 In terms of commands that might look like:
 
-# Add the remote, call it "upstream":
+Add the remote, call it "upstream":
 ```bash
 git remote add upstream https://github.com/whoever/whatever.git
 ```
-# Fetch all the branches of that remote into remote-tracking branches
+Fetch all the branches of that remote into remote-tracking branches
 ```bash
 git fetch upstream
 ```
-# Make sure that you're on your master branch:
+Make sure that you're on your master branch:
 ```bash
 git checkout master
 ```
-# Rewrite your master branch so that any commits of yours that
-# aren't already in upstream/master are replayed on top of that
-# other branch:
+Rewrite your master branch so that any commits of yours that aren't already in upstream/master are replayed on top of that other branch:
 ```bash
 git rebase upstream/master
 ```
