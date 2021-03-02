@@ -14,6 +14,7 @@ This is a workbook that contains some technical stuff which might be useful and 
 
 ## Contribution
 
+* [Git Update Fork](contribution/git-update-fork.md "Git Update Fork") - contains information about updating of forks. 
 * [Github](contribution/github.md "Github") - contains information about contribution into github. 
 
 ## Engineering 
