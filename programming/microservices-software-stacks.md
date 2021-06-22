@@ -18,47 +18,47 @@
 
 ### Jaeger
 
-Distributed Tracing Monitoring 
-Performance and Latency Optimization
-It has a dedicated deployment documentation section.
-It leverages open tracing libraries
+- Distributed Tracing Monitoring 
+- Performance and Latency Optimization
+- It has a dedicated deployment documentation section.
+- It leverages open tracing libraries
 
 ### Zipkin
 
-It is a Cloud Native Computing Foundation project
-Various Language supported including C and JAVA
-It provide Docker image and Java Program
-It supports Popular Framework
+- It is a Cloud Native Computing Foundation project
+- Various Language supported including C and JAVA
+- It provide Docker image and Java Program
+- It supports Popular Framework
 
 ### App Dynamics
 
-Service to Service tracing capability
-End to End tracing, applicable for Mobile Apps
-Tracing dashboard is provided  
+- Service to Service tracing capability
+- End to End tracing, applicable for Mobile Apps
+- Tracing dashboard is provided  
 
 ## Application Matrices
 
 ### App Dynamics
 
-Application Performance Monitoring
-Server Monitoring 
-Database Monitoring
-Insights and Analytics
+- Application Performance Monitoring
+- Server Monitoring 
+- Database Monitoring
+- Insights and Analytics
 
 ### New Relic
 
-Application Performance Monitoring
-Server Monitoring 
-Database Monitoring
-Insights and Analytics
+- Application Performance Monitoring
+- Server Monitoring 
+- Database Monitoring
+- Insights and Analytics
 
 ## Log aggregation
 
 ### Splunk
 
-Analyzes the aggregate of logs from a big service cluster
-Finds real-time logs and generate reports and alerts for each search
-It provides enhanced GUI and real-time visibility in dashboard in various formats 
+- Analyzes the aggregate of logs from a big service cluster
+- Finds real-time logs and generate reports and alerts for each search
+- It provides enhanced GUI and real-time visibility in dashboard in various formats 
 
 ### Stack Driver
 
@@ -72,9 +72,9 @@ It provides enhanced GUI and real-time visibility in dashboard in various format
 
 ### Eventuate
 
-Maintain data consistency using SAGA
-Implements Queries using CQRS
-Communicate using transnational message
+- Maintain data consistency using SAGA
+- Implements Queries using CQRS
+- Communicate using transnational message
 
 ### Kafka
 
