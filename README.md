@@ -33,4 +33,5 @@ This is a workbook that contains some technical stuff which might be useful and 
 * [Distributed System Design Patterns](programming/distributed-system-design-patterns.md "Distributed System Design Patterns") - describes important top distributed system design patterns.
 * [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
 * [Software Architecture Patterns](programming/software-architecture-patterns.md "Software Architecture Patterns") - describes important software architecture patterns.
-* [Software Architecture](programming/software-architecture.md "Software Architecture") - everything about software architecture.
+* [Software Architecture](programming/software-architecture.md "Software Architecture") - describes everything about software architecture.
+* [Microservices Software Stacks](programming/microservices-software-stacks.md "Microservices Software Stacks") - describes microservices software stacks.
