@@ -30,4 +30,5 @@ This is a workbook that contains some technical stuff which might be useful and 
 * [7 Microservices Tenets](programming/7-microservices-tenets.md "7 Microservices Tenets") - describes interesting 7 microservices tenets.
 * [Clean Code Principles](programming/clean-code-principles.md "Programming Principles") - describes some clean code principles.
 * [Design Patterns](programming/design-patterns.md "Design Patterns") - describes 23 design patterns (GoF).
+* [Distributed System Design Patterns](programming/distributed-system-design-patterns.md "Distributed System Design Patterns") - describes important top distributed system design patterns.
 * [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
