@@ -32,3 +32,4 @@ This is a workbook that contains some technical stuff which might be useful and 
 * [Design Patterns](programming/design-patterns.md "Design Patterns") - describes 23 design patterns (GoF).
 * [Distributed System Design Patterns](programming/distributed-system-design-patterns.md "Distributed System Design Patterns") - describes important top distributed system design patterns.
 * [Programming Principles](programming/principles.md "Programming Principles") - describes important programming principles.
+* [Software Architecture Patterns](programming/software-architecture-patterns.md "Software Architecture Patterns") - describes important software architecture patterns.
