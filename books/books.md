@@ -32,3 +32,4 @@
 3. Microservices - A Practical Guide. Eberhard Wolff
 4. Implementing Domain-Driven Design. Vaughn Vernon. - Red Book. Vaughn Vernon. - Blue Book. Eric Evans. 
 5. Designing Data-Intensive Applications. Martin Kleppmann
+6. Learn microservices with Spring Boot. Moises Macero Garcia

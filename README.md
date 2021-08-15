@@ -6,6 +6,10 @@ This is a workbook that contains some technical stuff which might be useful and 
 
 * [Books](books/books.md "Books") - a list of some interesting books.
 
+## Courses
+
+* [Courses](courses/courses.md "Courses") - a list of some interesting courses.
+
 ## Commands
 
 * [Docker Commands](commands/docker-commands.md "Docker Commands") - some useful docker commands.
@@ -25,6 +29,7 @@ This is a workbook that contains some technical stuff which might be useful and 
 * [Interview Questions](engineering/interview-questions.md "Interview Questions") - contains interview questions. 
 * [Popular Big Data](engineering/popular-big-data.md "Popular Big Data") - contains information about popular big data tools. 
 * [Software Engineering Stack](engineering/software-engineering-stack.md "Software Engineering Stack") - contains information about software engineering stack. 
+* [Top 10 Tools for Data Engineers](engineering/top-10-tools-for-data-engineers.md "Top 10 Tools for Data Engineers") - contains top 10 tools for Data Engineers.
 
 ## Programming 
 
