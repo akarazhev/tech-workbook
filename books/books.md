@@ -33,3 +33,33 @@
 4. Implementing Domain-Driven Design. Vaughn Vernon. - Red Book. Vaughn Vernon. - Blue Book. Eric Evans. 
 5. Designing Data-Intensive Applications. Martin Kleppmann
 6. Learn microservices with Spring Boot. Moises Macero Garcia
+
+## System Design 
+
+- Clean Architecture (Robert C. Martin)
+- Микросервисы. Паттерны разработки и рефакторинга (Крис Ричардсон)
+- Reactive Messaging Patterns With The Actor Model (Vaughn Vernon)
+
+1. Domain Driven Design (Vaughn Vernon)
+2. Enterprise Integration Patterns (Gregor Hohpe, Bobby Wolf)
+3. Software system architecture (Nick Rozanski Eoin Woods)
+4. Building Evolutionary Architectures (Neal Ford, Rebecca Parsons & Patrick Kua)
+5. Function and Reactive Domain Modeling (Debasish Ghosh)
+6. Practical Microservices Architectural Patterns (Binidias Christudas)
+7. Архитектура Предприятия (Андрей Коротков)
+8. Architecting for Scale (Lee Atchison)
+9. Архитектура корпоративных программных приложений (Мартин Фаулер)
+10. Clean Architecture (Robert C. Martin) 
+11. Enterprise Angular (Manfred Steyer)
+12. Enterprise Angular Monorepo Patterns (Victor Savkin, Nitin Vericherla)
+13. Применение UML 2.0 и шаблонов проектрования (Крэг Ларман)
+14. Микросервисы. Паттерны разработки и рефакторинга (Крис Ричардсон)
+15. Monolith to Microservices. Evolutionary Patterns to transform Your Monolith (Sam Newman)
+16. Object-Oriented Software Construction (Bertrand Meyer)
+17. Pattern-Oriented Software Architecture (Douglas Schmidt, Michael Stal, Hans Rohnert and Frank Buschmann)
+18. Practical Enterprise Data Lake Insights (Saurbah Gupta, Venkata Giri)
+19. Распределённые системы. Паттерны проектирования (Брендан Бернс)
+20. Reactive Messaging With The Actor Model (Vaughn Vernon)
+21. Software Architecture In Practice (Len Bass, Paul Clements, Rick Kazman)
+22. Discovering requirements (Ian Alexander, Ljerka Beus-Dukic)
+23. Software Architect's Handbook: Become a successful software architect by implementing effective architecture concepts (Joseph Ingeno)
