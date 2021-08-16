@@ -42,7 +42,7 @@
 
 1. Domain Driven Design (Vaughn Vernon)
 2. Enterprise Integration Patterns (Gregor Hohpe, Bobby Wolf)
-3. Software system architecture (Nick Rozanski Eoin Woods)
+3. Software System Architecture (Nick Rozanski, Eoin Woods)
 4. Building Evolutionary Architectures (Neal Ford, Rebecca Parsons & Patrick Kua)
 5. Function and Reactive Domain Modeling (Debasish Ghosh)
 6. Practical Microservices Architectural Patterns (Binidias Christudas)
@@ -59,7 +59,7 @@
 17. Pattern-Oriented Software Architecture (Douglas Schmidt, Michael Stal, Hans Rohnert and Frank Buschmann)
 18. Practical Enterprise Data Lake Insights (Saurbah Gupta, Venkata Giri)
 19. Распределённые системы. Паттерны проектирования (Брендан Бернс)
-20. Reactive Messaging With The Actor Model (Vaughn Vernon)
+20. Reactive Messaging Patterns With The Actor Model (Vaughn Vernon)
 21. Software Architecture In Practice (Len Bass, Paul Clements, Rick Kazman)
 22. Discovering requirements (Ian Alexander, Ljerka Beus-Dukic)
 23. Software Architect's Handbook: Become a successful software architect by implementing effective architecture concepts (Joseph Ingeno)
