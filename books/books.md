@@ -63,3 +63,16 @@
 21. Software Architecture In Practice (Len Bass, Paul Clements, Rick Kazman)
 22. Discovering requirements (Ian Alexander, Ljerka Beus-Dukic)
 23. Software Architect's Handbook: Become a successful software architect by implementing effective architecture concepts (Joseph Ingeno)
+
+## Software Engineering
+
+1. Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#
+2. Clean Architecture: A Craftsman's Guide to Software Structure and Design
+3. Growing Object-Oriented Software, Guided by Tests
+4. Patterns of Enterprise Application Architecture
+5. Decomposing Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith
+6. A Philosophy of Software Design
+7. Database Internals: A Deep-Dive into How Distributed Data Systems Work
+8. Terraform Up and Running: Writing Infrastructure as Code
+9. The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win
+10. Extreme Programming Explained: Embrace Change
