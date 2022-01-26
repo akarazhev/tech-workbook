@@ -64,6 +64,18 @@
 22. Discovering requirements (Ian Alexander, Ljerka Beus-Dukic)
 23. Software Architect's Handbook: Become a successful software architect by implementing effective architecture concepts (Joseph Ingeno)
 
+## Software Architecture
+
+1. Cloud Strategy — Gregor Hohpe
+2. Get your hands dirty on Clean Architecture — Tom Hombergs
+3. Become a better Software Architect – Kai Niklas
+4. Designing Data-Intensive Applications – Martin Kleppmann
+5. API Design on the Scale of Decades — Bill Doerrfeld
+6. Clean Architecture — Robert C. Martin
+7. Site Reliability Engineering — Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy
+8. 37 Things One Architect Knows About IT Transformation — Gregor Hohpe
+9. Microservices: Patterns and Applications — Lucas Krause
+
 ## Software Engineering
 
 1. Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#
