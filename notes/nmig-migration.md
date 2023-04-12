@@ -1,31 +1,49 @@
-# Data migration with the nmig tool
+# How to Migrate Data with the nmig Tool
 
-`NMIG` is an app, intended to make a process of migration from `MySQL` to `PostgreSQL` as easy and smooth as possible.
-It has been written in the `TypeScript` language and is run on `Node.js 10` or higher.
+`NMIG` is a powerful tool that simplifies the process of migrating from `MySQL` to `PostgreSQL`. 
+Built with `TypeScript` for enhanced reliability and maintainability, `NMIG` is a top choice for developers who want 
+to streamline their migration process. With `NMIG`, you can enjoy benefits such as:
 
-Visit the link for more information: https://github.com/AnatolyUss/NMIG
+- Easy and smooth migration from `MySQL` to `PostgreSQL`
+- Written in `TypeScript` for improved reliability and maintainability
+- Compatible with `Node.js 10` and higher
 
-## Installation
+Visit the official `NMIG` website at https://github.com/AnatolyUss/NMIG to learn more about this versatile tool.
 
-Download and install `Node.js 10` or higher: https://nodejs.org/en/
+## How to Install NMIG
 
-Clone and checkout the `nmig` tool:
+To install `NMIG`, follow these simple steps:
 
+1. Download and install `Node.js 10` or higher by visiting the official website at https://nodejs.org/en/.
+2. Open your command prompt or terminal.
+3. Clone the `NMIG` tool by running the following command:
 ```bash
 git clone https://github.com/AnatolyUss/nmig.git
+```
+
+4. Navigate to the NMIG directory by running the following command:
+```bash
 cd nmig
+```
+
+5. Check out the version you want to install by running the following command (replace v5.5.0 with the version you want to install):
+```bash
 git checkout v5.5.0
 ```
 
-## Configuration 
+Once you've completed these steps, you're ready to start using NMIG for your data migration needs.
 
-The main configuration script is `config.json`:
+## Configuring the Source and Target 
 
+To configure your source and target databases, follow these steps:
+
+1. Open the `config.json` file by running the following command:
 ```bash
 nano config/config.json
 ```
 
-If we need to configure a source and target, we can update sections:
+2. Update the `source` and `target` sections with your desired configuration, such as host, port, database name, 
+character set, username, and password.
 
 ```json
 "source": {
@@ -49,20 +67,21 @@ If we need to configure a source and target, we can update sections:
   "password" : "0123456789"
 }
 ```
+## Renaming Table Names and Columns
 
-If we need to rename either a table name, column or foreign keys, we should activate an extra config:
+To rename table names and columns, follow these steps:
 
+1. Enable the extra configuration by setting `enable_extra_config` to `true` in the `config.json` file:
 ```json
 "enable_extra_config" : false
 ```
 
-The extra configuration script is `extra_config.json`:
-
+2. Open the `extra_config.json` file by running the following command:
 ```bash
 nano config/extra_config.json
 ```
 
-To rename names we can update sections:
+3. Update the `tables` section with the table names and columns you want to rename, using the `original` and `new` keys:
 
 ```json
 "tables" : [
@@ -97,14 +116,19 @@ To rename names we can update sections:
 ]
 ```
 
+With these configurations in place, you're ready to migrate your data using NMIG.
+
 ## Usage
 
-Install and run:
-
+Install the required dependencies and build the project by running:
 ```bash
 npm install
 npm run build
+```
+
+Start the migration process by running:
+```bash
 npm start
 ```
 
-Enjoy!
+Enjoy the migration process!
